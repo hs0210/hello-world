@@ -32,4 +32,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       - name: Run shell
-        run: ./hello.out
+        run: ./hello-world.out
