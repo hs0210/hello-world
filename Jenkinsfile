@@ -4,6 +4,7 @@ pipeline {
         stage('test') {
             steps {
                 sh './hello.out'
+                sh 'go version'
             }
         }
     }
