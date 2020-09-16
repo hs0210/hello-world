@@ -5,6 +5,7 @@ pipeline {
             steps {
                 sh './hello.out'
                 sh 'echo "test branch work"'
+		sh 'go version'
             }
         }
     }
