@@ -4,8 +4,9 @@ pipeline {
         stage('test') {
             steps {
                 sh './hello.out'
-                sh 'echo "test branch work"'
-		sh 'go version'
+                sh 'echo "test branch"'
+		sh 'ls /home'
+		sh 'uname -a'
             }
         }
     }
