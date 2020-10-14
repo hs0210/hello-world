@@ -1,3 +1,2 @@
 test pipeline
-test pipeline PR
 test centos
