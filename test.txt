@@ -1,2 +1,3 @@
 test pipeline
 test centos
+test git source
