@@ -6,6 +6,7 @@ pipeline {
                 sh './hello.out'
                 sh 'echo "test branch"'
 		sh 'ls /home'
+		sh 'echo "git push"'
             }
         }
     }
