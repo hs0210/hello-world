@@ -1,1 +1,3 @@
 test pipeline
+test github pust
+test push -f
