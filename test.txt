@@ -1,2 +1,4 @@
 test pipeline
 test github push
+test github PR
+test push -f
