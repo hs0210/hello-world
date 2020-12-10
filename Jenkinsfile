@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh './hello.out'
                 sh 'echo "test branch"'
-		sh 'ls /home'
+		sh '~/.local/bin/ansible-playbook -i /home/hs/inventory /home/hs/playbook.yaml'
             }
         }
     }
