@@ -6,7 +6,10 @@ pipeline {
         stage('test') {
             steps {
                 sh './hello.out'
-                sh 'echo "test branch"'
+                sh 'echo $http_proxy'
+                sh 'echo $foo'
+                sh 'pwd'
+                sh 'wget www.baidu.com'
             }
         }
     }
