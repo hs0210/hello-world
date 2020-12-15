@@ -7,8 +7,7 @@ pipeline {
             steps {
                 sh './hello.out'
                 sh 'echo $http_proxy'
-                sh 'echo $foo'
-                sh 'pwd'
+                sh 'ansible-playbook -i inventory playbook.yaml'
                 sh 'wget www.baidu.com'
             }
         }
